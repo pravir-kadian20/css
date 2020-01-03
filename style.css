@@ -1,0 +1,30 @@
+*{
+    color:red;
+}
+
+div{
+    color:blue;
+    margin-left:30px;
+}
+
+p{
+    font-size:30px;
+}
+
+#p1{
+    font-family:courier;
+}
+
+#p2{
+    font-family:courier;
+    margin-left:20px;
+    font-size:20px;
+}
+
+.osempara{
+    background-color:blueviolet;
+}
+
+.bigpara{
+    font-size:70px;
+}
