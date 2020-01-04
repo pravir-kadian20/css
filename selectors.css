@@ -1,0 +1,18 @@
+li{
+    font-weight:bold;
+}
+ul>li{
+    color:blue;
+}
+ol>li{
+    color:red;
+}
+ul li li{
+    font-style: italic;
+}
+ol~ul{
+    background-color: purple;
+}
+ul+ol{
+    background-color: royalblue;
+}

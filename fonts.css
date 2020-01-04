@@ -1,0 +1,19 @@
+#p1{
+    font-size:30px;
+    color:red;
+}
+#p2{
+    font-family:monospace;
+}
+#p3{
+    font-style:italic;
+    font-weight:bold;
+}
+#p4{
+    font-style:oblique;
+    font-weight:bolder;
+}
+#p5{
+    word-spacing:5px;
+    letter-spacing:2px;
+}

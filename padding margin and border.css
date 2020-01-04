@@ -1,0 +1,45 @@
+.Box{
+    margin:20px;
+    padding:10px;
+    border:solid black 5px;
+}
+#div1{
+    background-color: lightgreen;
+}
+#div2{
+    background-color: lightsalmon;
+}
+#div3{
+    background-color: lightcyan;
+}
+.Box1{
+    background-color:lightsteelblue;
+    margin:20px;
+    padding:10px;
+    border:dotted black 5px;
+}
+#div11{
+    background-color: limegreen;
+}
+#div12{
+    background-color:lightyellow;
+}
+#div13{
+    background-color:lightslategray;
+}
+
+.Box2{
+    margin:20px;
+    padding:10px;
+    border:dashed black 5px;
+    background-color:magenta;
+}
+#div111{
+    background-color: maroon;
+}
+#div123{
+    background-color: mediumblue;
+}
+#div131{
+    background-color: navajowhite;
+}
