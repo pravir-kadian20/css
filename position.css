@@ -1,0 +1,59 @@
+.box{
+    background-color: red;
+    margin:20px;
+    padding:20px;
+    border:solid black 5px;
+}
+#div3{
+    position:relative;
+    top:50px;
+    right:50px;
+}
+.box1{
+    background-color: saddlebrown;
+    margin:20px;
+    padding:20px;
+    border:dashed black 5px;
+}
+#div33{
+    position:static;
+    top:50px;
+    right:50px;/*top right bottom and left does not work if pos is static*/
+}
+.box2{
+    background-color: slateblue;
+    margin:20px;
+    padding:20px;
+    border:dotted black 5px;
+}
+#d3{
+    position:fixed;
+    top:30px;
+    left:30px;
+}
+.box3{
+    background-color: tomato;
+    margin:20px;
+    padding:20px;
+    border:solid black 5px;
+}
+#i2{
+    position:fixed;
+    bottom:100px;
+    left:30px;
+}
+#i3{
+    position: absolute;
+    bottom: 150px;
+    left:0px;
+}
+.box4{
+    background-color: yellow;
+    margin:20px;
+    padding:20px;
+    border:dashed black 5px;
+}
+#i33{
+    position: sticky;
+    top:0px;
+}

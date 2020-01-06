@@ -1,0 +1,16 @@
+#div1{
+    height:50px;
+    width:50px;
+    margin:250px;
+    background-color: pink;
+    /*transform:translate(30px,30px);*/
+    /*transform:scale(5);*/
+    /*transform:skew(50deg,4deg);*/
+    /*transform:rotateZ(45deg);
+    transform:rotatex(45deg);
+    transform:rotateY(45deg);
+    transform:scaleX(5);
+    transform:scaleY(5);
+    transform:translateX(150px);*/
+    transform:translateY(150px);
+}
