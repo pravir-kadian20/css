@@ -1,0 +1,58 @@
+div{
+    background-color: red;
+    height:100px;
+    width:100px;
+    margin:40px;
+}
+@keyframes slide{
+    from{
+        margin-left:40px;
+    }
+    to{
+        margin-left:800px;
+    }
+}
+
+@keyframes crazyslide{
+    0%{
+        margin-left:40px;
+    }
+    50%{
+        margin-left:400px;
+        height:10px;
+        background-color: royalblue;
+    }
+    100%{
+        margin-left:800px;
+        background-color: greenyellow;
+    }
+}
+
+@keyframes animae{
+    0%{
+        margin-left:40px;
+    }
+    50%{
+        height:200px;
+        margin-left:400px;
+        background-color: greenyellow;
+    }
+    100%{
+        background-color: hotpink;
+    }
+}
+#div1:hover+div{
+    animation-name:slide;
+    animation-duration:2s;
+    animation-iteration-count:10;
+}
+#div3:hover+div{
+    animation-name:crazyslide;
+    animation-duration:6s;
+    animation-iteration-count:5;
+}
+#div2:hover+div{
+    animation-name:animae;
+    animation-duration:6s;
+    animation-iteration-count:10;
+}
